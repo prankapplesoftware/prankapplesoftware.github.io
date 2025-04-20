@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrankApple Software</title>
+  <link rel="icon" href="prankapplesoftwarelogo.ico" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+
+    .logo-img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    .tagline {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #000000;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .project-button {
+      background: #000000;
+      border: none;
+      padding: 15px 20px;
+      font-size: 16px;
+      color: white;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .project-button:hover {
+      background: #575959;
+      transform: scale(1.05);
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: auto;
+      padding: 20px;
+      font-size: 14px;
+      color: #000000;
+      flex-wrap: wrap;
+    }
+
+    .github-button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #000000;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+
+    .github-button:hover {
+      background: #575959;
+      transform: scale(1.05);
+    }
+
+    .github-icon {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="prankapplesoftwarelogo.png" alt="PrankApple Software Logo" class="logo-img" />
+    <div class="tagline">Wellcome to the Prankapplesoftware website.</div>
+  </header>
+
+  <div class="button-grid">
+    <a class="project-button" href="https://prankapplesoftware.github.io/runwithpower">RunWithPower</a>
+    <a class="project-button" href="https://prankapplesoftware.github.io/discordtools/">DiscordTools</a>
+    <!-- I will add more project buttons here -->
+  </div>
+
+  <!-- Footer with GitHub Button -->
+  <div class="footer-container">
+    <span>&copy; 2025 PrankApple Software.</span>
+    <a class="github-button" href="https://github.com/prankapple" target="_blank">
+      <svg class="github-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 .198a8 8 0 00-2.533 15.593c.4.074.547-.174.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.727-.497.055-.487.055-.487.803.056 1.225.825 1.225.825.714 1.223 1.872.87 2.327.665.072-.517.28-.87.508-1.07-1.776-.2-3.644-.888-3.644-3.953 0-.874.312-1.588.823-2.148-.083-.203-.357-1.018.078-2.122 0 0 .672-.215 2.2.82a7.65 7.65 0 012.004-.27c.68.003 1.366.092 2.004.27 1.527-1.035 2.197-.82 2.197-.82.437 1.104.163 1.919.08 2.122.513.56.822 1.274.822 2.148 0 3.073-1.87 3.75-3.653 3.947.288.247.544.735.544 1.48 0 1.07-.01 1.932-.01 2.195 0 .213.144.462.55.384A8.001 8.001 0 008 .198z"/>
+      </svg>
+      My GitHub
+    </a>
+  </div>
+
+</body>
+</html>
